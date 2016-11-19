@@ -1,0 +1,23 @@
+<view class="collection-box">
+    <view class="collection-navigator-box collection-navigator-box-1">
+        <navigator class="collection-navigator-btn collection-navigator-doutu-btn">
+            <image class="collection-icon" src="images/icon-emoticon.png"></image>
+            <view class="collection-name">天天斗图</view>
+        </navigator>
+        <navigator class="collection-navigator-btn collection-navigator-news-btn">
+            <image class="collection-icon" src="images/icon-news.png"></image>
+            <view class="collection-name">天天新闻</view>
+        </navigator>
+    </view>
+    <view class="collection-navigator-box collection-navigator-box-2">
+        <navigator class="collection-navigator-btn collection-navigator-weather-btn">
+            <image class="collection-icon" src="images/icon-weather.png"></image>
+            <view class="collection-name">天天天气</view>
+        </navigator>
+        <navigator class="collection-navigator-btn collection-navigator-music-btn">
+            <image class="collection-icon" src="images/icon-music.png"></image>
+            <view class="collection-name">天天音乐</view>
+            
+        </navigator>
+    </view>
+</view>

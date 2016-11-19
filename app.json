@@ -1,5 +1,6 @@
 {
   "pages":[
+    "projects/home/index",
     "projects/guide/index"
   ]
 }

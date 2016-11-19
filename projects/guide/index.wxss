@@ -1,3 +1,6 @@
 page{height: 100%;}
 .guide-swiper{height: 100%;}
 .slide-image{height: 100%;}
+.guide-navigator-box{position: absolute;bottom:150rpx;text-align: center;left: 0;right: 0;}
+.guide-navigator-btn{display:inline-block;background: #ec9b32;padding:10px 20px;border-radius: 8px;color:#fff;}
+.guide-navigator-btn:active{background: #d28623;}

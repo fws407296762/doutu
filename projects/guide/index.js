@@ -1,9 +1,9 @@
 Page({
     data:{
         imgUrls:[
-            'http://a3.qpic.cn/psb?/8830d653-708a-4151-bf3d-dd482d055e19/tMnGVHemGNGnNTPFTO7Xb0AxbFW3BncYfsMEET3aPcE!/b/dGcBAAAAAAAA&bo=gAIrBAAAAAAFB4k!&rf=viewer_4',
-            'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
-            'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
+            './images/guide-1.jpg',
+            './images/guide-2.jpg',
+            './images/guide-3.jpg'
         ]
     }
 })
