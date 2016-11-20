@@ -1,0 +1,50 @@
+Page({
+    data:{
+        dts:[
+            {
+                thumb:"thumb/d1_thumb.jpg",
+                image:"images/d1.jpg",
+                initText:"妖精，快放了我师父"
+            },
+            {
+                thumb:"thumb/d2_thumb.jpg",
+                image:"images/d2.jpg",
+                initText:"还要不要脸"
+            },
+            {
+                thumb:"thumb/d3_thumb.jpg",
+                image:"images/d3.jpg",
+                initText:"我觉得我很委屈"
+            },
+            {
+                thumb:"thumb/d4_thumb.jpg",
+                image:"images/d4.jpg",
+                initText:"做我媳妇吧"
+            },
+            {
+                thumb:"thumb/d5_thumb.jpg",
+                image:"images/d5.jpg",
+                initText:"妖精，快放了我师父"
+            },
+            {
+                thumb:"thumb/d6_thumb.jpeg",
+                image:"images/d6.jpg",
+                initText:"妖精，快放了我师父"
+            },
+            {
+                thumb:"thumb/d7_thumb.jpg",
+                image:"images/d7.jpg",
+                initText:"画地成圆，祝尔长眠"
+            }
+        ]
+    },
+    navigatorMakeThumb:function(e){
+        var currentTarget = e.currentTarget;
+        var dataset = currentTarget.dataset;
+        var image = dataset.image,
+            inittext = dataset.inittext;
+        wx.navigateTo({
+            url:"make/index?image="+encodeURIComponent(image)+"&inittext="+encodeURIComponent(inittext)
+        })
+    }
+})

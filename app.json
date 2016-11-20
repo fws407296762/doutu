@@ -1,6 +1,10 @@
 {
   "pages":[
+    "projects/news/news",
+    "projects/news/newscontent/newscontent",
     "projects/home/index",
+    "projects/doutu/make/index",
+    "projects/doutu/index",
     "projects/guide/index"
   ]
 }

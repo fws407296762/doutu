@@ -1,0 +1,10 @@
+/*幻灯片*/
+.main-swiper{height: 400rpx;}
+.silde-image{width:100%;height: 100%;}
+
+/*新闻列表*/
+.news-list-item{display: flex;padding: 10rpx;}
+.news-thumb,.news-no-thumb{flex: 1;height: 150rpx;}
+.news-no-thumb{background: #ccc;text-align:center;line-height: 150rpx;color:#666;font-size:35rpx;}
+.news-content{flex: 2;margin-left: 15rpx;line-height: 1.5;}
+.news-title{font-size: 36rpx;font-family: -apple-system-font, "Helvetica Neue", sans-serif;}

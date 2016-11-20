@@ -1,0 +1,7 @@
+{
+    "navigationBarBackgroundColor":"transparent",
+    "navigationBarTitleText":"天天新闻",
+    "navigationBarTextStyle": "#000",
+    "backgroundColor":"#fff",
+    "enablePullDownRefresh":true
+}

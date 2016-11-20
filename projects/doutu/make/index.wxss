@@ -1,0 +1,11 @@
+page{height: 100%;overflow: hidden;}
+.make-box{height: 100%;}
+.make-thumb-box{height: 500rpx;}
+.thumb-image{display: none;}
+.thumb-text{text-align: center;margin: 50rpx 5%;}
+.thumb-select-text{height: calc(100% - 100rpx);overflow: hidden;}
+
+.text-box{display: flex;padding:10rpx;background:#FF9900;}
+.text-box-input{flex: 3;background: #fff;height:80rpx;padding:0 10rpx;margin-right: 10rpx;}
+.text-box-btn{flex:1;font-size:32rpx;}
+.thumb-select-text-item{background: #FFFF99;margin: 10rpx 0;padding:20rpx 15rpx;}

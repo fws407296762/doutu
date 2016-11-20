@@ -1,0 +1,10 @@
+<view class="dt-navigator-box">
+    <navigator url="make/index" class="expression-box make-box">
+        <image src="images/icon-make.png"></image>
+    </navigator>
+    <block wx:for="{{dts}}">
+        <navigator data-image="{{item.image}}" data-inittext="{{item.initText}}" bindtap="navigatorMakeThumb" class="expression-box thumb-box">
+            <image src="{{item.thumb}}"></image>
+        </navigator>
+    </block>
+</view>

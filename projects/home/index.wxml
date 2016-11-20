@@ -1,6 +1,6 @@
 <view class="collection-box">
     <view class="collection-navigator-box collection-navigator-box-1">
-        <navigator class="collection-navigator-btn collection-navigator-doutu-btn">
+        <navigator url="../doutu/index" class="collection-navigator-btn collection-navigator-doutu-btn">
             <image class="collection-icon" src="images/icon-emoticon.png"></image>
             <view class="collection-name">天天斗图</view>
         </navigator>

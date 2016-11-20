@@ -1,0 +1,12 @@
+<view class="make-box">
+    <view class="make-thumb-box">
+        <canvas bindtap="selectImg" class="thumb-canvas" style="width:100%;height:100%;" canvas-id="thumbCanvas"></canvas>
+    </view>
+    <view class="text-box">
+        <input value="{{selectedThumbText}}" class="text-box-input" type="text" placeholder="请输入文字" auto-focus></input>
+        <button bindtap="saveThumb" class="text-box-btn">合成并保存</button>
+    </view>
+    <scroll-view scroll-y class="thumb-select-text">
+        <view bindtap="selectThumbText" data-text="{{item}}" class="thumb-select-text-item" wx:for="{{defaultTexts}}">{{item}}</view>
+    </scroll-view>
+</view>

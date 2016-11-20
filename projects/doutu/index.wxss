@@ -1,0 +1,4 @@
+.dt-navigator-box{display: flex;flex-wrap: wrap;width:100%;}
+.make-box{box-sizing:border-box;background: #FF9900;padding:20rpx;}
+.expression-box{border:1px solid #ccc;border-right:1px solid #ccc;margin:10rpx;width:30%;height: 200rpx;text-align: center;}
+.expression-box image{max-width:100%;max-height:100%;vertical-align: top;}
