@@ -34,6 +34,10 @@ Page({
             {
                 thumb:"thumb/d7_thumb.jpg",
                 image:"images/d7.jpg",
+                initText:"画地成圆，祝尔长眠",
+                initText:"画地成圆，祝尔长眠",
+                initText:"画地成圆，祝尔长眠",
+                initText:"画地成圆，祝尔长眠",
                 initText:"画地成圆，祝尔长眠"
             }
         ]
